@@ -83,6 +83,7 @@ const init = async() => {
     //await db.run(`insert into vagas(categoria, titulo, descricao) values(2,'${vaga}', '${descricao}')`)  // padrao usado chama-se Template String
 }
 init() 
+// teste commit
 app.listen(3000, (err) => {
     if (err){
         console.log('Não foi possível iniciar o servidor do Jobify.')
